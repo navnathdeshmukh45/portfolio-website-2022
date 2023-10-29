@@ -1,241 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historical-Places-In-India</title>
-</head>
-<body>
-    <h2> Historical-Places-In-India </h2>
-    <p>
-      
-    </p>
-    <h1> code :</h1>
-    <p>
 
-<!--         
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
->
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<title>  Historical Places in India </title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
 <style>
-body{
-  background-image: 
-linear-gradient(300deg,blue);}
+         *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-h1{
-color:white;
-background-color: black;
-box-shadow: 10px 10px 10px violet ;
-margin-top: 10px;
-lighting-color: aqua;
+        :root
+        {
+            --bg-main:#18122B;
+            --bg-primary:#ECF2FF;
+        }
 
-background-image: 
-linear-gradient(120deg,yellow,red,blue,green,violet);
-}
+        html
+        {
+            font-size: 62.5%;
+            font-family: "Lexend Deca Light";
+        }
+
+        body
+        {
+            background-color:var(--bg-primary)
+        }
+
+        a,li
+        {
+            margin: 0;
+            font-size: 1.8rem;
+            color: var(--bg-primary);
+        }
+
+        header
+        {
+            background-color: var(--bg-main);
+            height: 10rem;
+            color: var(--bg-primary);
+            display: grid;
+            place-items: center;
+        }
+
+        .container
+        {
+            width: 80%;
+            height: 10rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* /background-color: red;/ */
+        }
+
+
+        .container ul
+        {
+            list-style: none;
+            display: flex;
+            gap: 3rem;
+            height: 10rem;
+        }
+
+        .container ul li
+        {
+            height: 10rem;
+            line-height: 10rem;
+            position: relative;
+            cursor: pointer;  
+        } 
+
+        .container ul li a:hover, .container ul li:hover
+        {
+            color: rgb(51, 255, 10);
+        }
+
 </style>
 </head>
 <body>
-<div class="fixed-center">
-<div class="nav align-items-center">
-<div class="container-fluid justify-content-between">
-<div align="center">
-<h1><marquee  direction="right to left" >
-  
-<b>Historical Places in India </b></marquee></h1>
-<br>
-<br>
-</div>
-</div>
-</nav>
-</div>
-<main>
-<div class="album py-5 bg-light">
-<div class="container">
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-<div class="col1">
-<div class="card shadow">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Chittorgarh_fort.JPG/300px-Chittorgarh_fort.JPG">
-<div class="card-body">
-<h2>Chittorgarh Fort</h2>
-<p class="card-text">One of the largest forts and historical places of India, Chittorgarh, the capital of Mewar
-kingdom has a striking attraction known as the Chittorgarh Fort. This magnificent Fort stands tall and reflects
-the sheer beauty, and the glorious past of the Mewar rulers.  The fort is spread across 700 acres of land and is 
-always remembered for its glorious battles, especially during the Alauddin khilji and self-sacrificing Jauhar performed by Rani Padmini.</p>
-</p>
-<div class="d-flex justify-content-between align-items-center" >           
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Chittor_Fort" class="btn btn-sm btn-outline-danger" target="_blank">Know More...</a>
-</div>
-</div>
+  <header>
+    <div  class = " container ">
+      <div>
+        <h2> 
 
-</div>
-</div>
-</div>
-
-<div class="col">
-<div class="card shadow-sm">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/220px-The_Golden_Temple_of_Amrithsar_7.jpg">
-<div class="card-body">
-<h2>Golden Temple</h2>
-<p class="card-text">One of the most famous Gurudwara in the entire world, Sri Harmandir Sahib is one of the important spiritual
-places in India. While it has been around for a long while, it was rebuilt with pure gold and marble in 1830 by Maharaja Ranjit
-Singh. Located in the heart of Amritsar, it is visited by more than a hundred thousand pilgrims every day..</p>
-<div class="d-flex justify-content-between align-items-center">
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Golden_Temple" type="button"
-  class="btn btn-sm btn-outline-danger" target="_blank">Know More...</a>
-
-</div>
-
-</div>
-</div>
-</div>
-</div>
-
-<div class="col">
-<div class="card shadow-sm">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/A_collage_of_Great_living_Chola_temples_UNESCO_heritage_site.jpg/260px-A_collage_of_Great_living_Chola_temples_UNESCO_heritage_site.jpg">
-<div class="card-body">
-<h2>Chola Temples</h2>
-<p class="card-text">The Great Living Chola Temples is a UNESCO World Heritage Site designation for a group of Chola dynasty era Hindu temples in the Indian state of Tamil Nadu.[1][2] Completed between early 11th and the 12th century CE, the monuments include:
-
-Brihadisvara Temple at Thanjavur
-Brihadisvara Temple at Gangaikonda Cholapuram
-Airavatesvara Temple at Kumbakonam.
-World Heritage Site recognition
-..</p>
-<div class="d-flex justify-content-between align-items-center">
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Golden_Temple" type="button"
-  class="btn btn-sm btn-outline-danger" target="_blank">Know More...</a>
-
-</div>
-
-</div>
-</div>
-</div>
-</div>
-
-<div class="col">
-<div class="card shadow-sm">
-<img src="https://www.treksandtrails.org/blog/wp-content/uploads/2020/09/Purandar-Fort-Trek.jpg">
-<div class="card-body">
-<h2>Purandar Fort</h2>
-<p class="card-text">Purandar Fort is a mountain fort in Pune district in Western Indian state of Maharashtra, India. The fort stands at 4,472 ft (1,390 m) above the sea level in the Western Ghats, 50 km to the southeast of Pune PURANDHAR FORT are must be a good palce in pune .
-The twin forts of Purandar and Vajragad (or Rudramal) of which the latter..
-</p>
-<div class="d-flex justify-content-between align-items-center">
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Purandar_Fort" type="button"
-  class="btn btn-sm btn-outline-danger" target="_blank">Know More...</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="col">
-<div class="card shadow-sm">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Virupaksha_Temple_in_Hampi.jpg/220px-Virupaksha_Temple_in_Hampi.jpg">
-
-<div class="card-body">
-<h2>Hampi Virupaksha Temple</h2>
-<p class="card-text">Hampi’s rocky outcrops, chariot structures, gopurams, elephant stables, ornate halls –
-all depict the tale of one of the greatest Hindu kingdoms. It is believed that Lord Rama and his brother visited this historical
-place to search for Sita. They took the help of the two brothers Bali and Sugriv who ruled this region then. This UNESCO World Heritage 
-Site is one of the most famous historical places in South 
-</p>
-<div class="d-flex justify-content-between align-items-center">
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Virupaksha_Temple,_Hampi" type="button"
-class="btn btn-sm btn-outline-danger">Know More...</a>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/250px-Mumbai_03-2016_30_Gateway_of_India.jpg">
-<div class="card-body">
-<h2>Gateway of India</h2>
-<p class="card-text">The Gateway of India is an arch-monument built in the early 20th century in the city of Mumbai (Bombay), India. It was erected to commemorate the landing of you ..</p>
-<div class="d-flex justify-content-between align-items-center">
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Gateway_of_India" type="button"
-  class="btn btn-sm btn-outline-danger" target="_blank">Know More...</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/300px-Ajanta_%2863%29.jpg">
-<div class="card-body">
-<h2>Ajanta Caves</h2>
-<p class="card-text">The Ajanta Caves are 29 rock-cut Buddhist cave monuments dating from the second century BCE to about 480 CE in the Aurangabad District of Maharashtra state .The Ajanta Caves constitute ancient monasteries (Chaityas) and worship-halls (Viharas) of different Buddhist traditions carved into a 75-metre (246 ft) wall of rock..</p>
-<div class="d-flex justify-content-between align-items-center">
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Ajanta_Caves" type="button"
-  class="btn btn-sm btn-outline-danger" target="_blank">Know More...</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="col">
-<div class="card shadow-sm">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Agra_03-2016_10_Agra_Fort.jpg/300px-Agra_03-2016_10_Agra_Fort.jpg">
-<div class="card-body">
-<h2> Agra Fort </h2>
-<p class="card-text">The Agra Fort is a historical fort in the city of Agra, and also known as Agra's Red Fort. Built by the Mughal emperor Akbar in 1565 and completed in 1573, it served as the main residence of the rulers of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi. It was also known as the "Lal-Qila" or "Qila-i-Akbari".[1] Before capture by the British, the last Indian rulers to have occupied it were the Marathas...</p>
-<div class="d-flex justify-content-between align-items-center">
-<div class="btn-group">
-<a href="https://en.wikipedia.org/wiki/Agra_Fort" type="button"
-  class="btn btn-sm btn-outline-danger" target="_blank">Know More...</a>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-<center><br> <br>
-<label>National Anthem :</label><br> <br>
-<audio controls>
-<source src="Jana-Gana-Mana-(The-Indian-National-Anthem)(PagalWorldl).mp3" type="audio/mpeg">
-</audio>
-<br>
-<br>
-</div>
-</div>
-<div class="fixed-center">
-<footer class="p1">
-<div class="container">
-<p class="float-end mb-1">
-<a href="#">Back to top</a>
-</p>
-<center>
-  <h1><marquee  direction="right to left" ><b> Designed And Developed By Deshmukh Navnath </b></h1>
-</center>
-</div>
-</footer>
-</div>
-</body>
-</html> -->
-
-</p>
+        </h2>       
+        <nav>
+            <ul>
+               <li> Home </li>
+               <li> About </li>
+               <li> contact </li>
+               <li> Portfolio </li>
+            </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 </body>
 </html>
