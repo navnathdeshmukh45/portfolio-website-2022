@@ -1,7 +1,7 @@
 
 
 /* light theme colors */
- /* .light-theme { 
+ .light-theme { 
   --background-primary: hsl(0, 0%, 100%);
   --background-secondary: hsl(0, 0%, 97%);
 
@@ -14,7 +14,7 @@
 
   --accent: hsl(229, 76%, 66%); 
 
-}  */
+} 
   /* dark theme colors  */
 .dark-theme {
 
