@@ -1,7 +1,7 @@
 
 
 /* light theme colors */
- .light-theme { 
+ /* .light-theme { 
   --background-primary: hsl(0, 0%, 100%);
   --background-secondary: hsl(0, 0%, 97%);
 
@@ -14,7 +14,7 @@
 
   --accent: hsl(229, 76%, 66%); 
 
-} 
+}  */
   /* dark theme colors  */
 .dark-theme {
 
@@ -106,9 +106,9 @@ html {
   border: 4px solid;
 }
 
-.light-theme::-webkit-scrollbar-thumb { border-color: hsl(0, 0%, 90%); }
+/* .light-theme::-webkit-scrollbar-thumb { border-color: hsl(0, 0%, 90%); } */
 .dark-theme::-webkit-scrollbar-thumb { border-color: hsl(219, 27%, 20%); }
-.light-theme::-webkit-scrollbar-track { background: hsl(0, 0%, 90%); }
+/* .light-theme::-webkit-scrollbar-track { background: hsl(0, 0%, 90%); } */
 .dark-theme::-webkit-scrollbar-track { background: hsl(219, 27%, 20%); }
 
 
@@ -230,10 +230,10 @@ header .flex-wrapper { display: none; }
   padding: 15px 0;
 }
 
-.logo-light,
+/* .logo-light, */
 .logo-dark { display: none; }
 
-.light-theme .logo-light,
+/* .light-theme .logo-light, */
 .dark-theme .logo-dark { display: block; }
 
 header .btn-group {
