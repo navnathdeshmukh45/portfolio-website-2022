@@ -313,7 +313,7 @@ header .btn-group {
 /*-----------------------------------*\ 
   #HERO SECTION
 \*-----------------------------------*/
-
+/* 
 .hero {
   background: var(--background-primary);
   padding-top:    2rem;
@@ -344,7 +344,7 @@ header .btn-group {
   text-align: center;
 }
 
-.hero .right { display: none; }
+.hero .right { display: none; } */
 
 
 /*-----------------------------------*\ 
