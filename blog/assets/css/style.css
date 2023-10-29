@@ -1,6 +1,4 @@
-/* html,body{
-  background-color: rgba(222, 242, 255, 0.61);
-} */
+
 
 /* light theme colors */
  /* .light-theme { 
@@ -18,7 +16,7 @@
 
 }  */
   /* dark theme colors  */
-/* .dark-theme {
+.dark-theme {
 
   --background-primary: hsl(218, 23%, 23%);
   --background-secondary: hsl(220, 26%, 14%);
@@ -32,7 +30,7 @@
 
   --accent: hsl(229, 76%, 66%);
 
-}  */
+} 
 
 :root {
 
